@@ -28,7 +28,7 @@ flutter build ios
 
 检查下iOS项目配置，Build Phases应该如下配置
 
-![](img/Build Phases.png)
+![](img/BuildPhases.png)
 
 之前报错是没有添加Embed Frameworks导致的，添加问题解决
 
