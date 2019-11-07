@@ -47,6 +47,8 @@ flutter:
     - images/2.0x/a.png
     - images/3.0x/a.png
     - images/4.0x/a.png
+    - images/b.png
+    - images/c.png
   
   #字体设置
   fonts:

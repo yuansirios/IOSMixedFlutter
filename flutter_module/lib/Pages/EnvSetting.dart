@@ -44,6 +44,11 @@ class _EnvSettingState extends State<EnvSetting> {
         color: Colors.green,
         child: Column(
           children: <Widget>[
+            Container(
+              width: 200,
+              height: 100,
+              child: Image.asset("images/b.png"),
+            ),
             Text("现在是：$envStr"),
             Text("主机地址：${AppConfig.apiHost}"),
           ],

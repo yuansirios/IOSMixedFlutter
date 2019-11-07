@@ -22,22 +22,5 @@
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
-#warning 为什么会闪退？？？？
-- (void)applicationDidEnterBackground:(UIApplication*)application {
-//    [_lifeCycleDelegate applicationDidEnterBackground:application];
-}
-- (void)applicationWillEnterForeground:(UIApplication*)application {
-//    [_lifeCycleDelegate applicationWillEnterForeground:application];
-}
-- (void)applicationWillResignActive:(UIApplication*)application {
-//    [_lifeCycleDelegate applicationWillResignActive:application];
-}
-- (void)applicationDidBecomeActive:(UIApplication*)application {
-//    [_lifeCycleDelegate applicationDidBecomeActive:application];
-}
-- (void)applicationWillTerminate:(UIApplication*)application {
-//    [_lifeCycleDelegate applicationWillTerminate:application];
-}
-
 @end
 
