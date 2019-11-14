@@ -161,13 +161,13 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/Flutter/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../flutter_module/.ios/Flutter/engine/Flutter.framework"
 fi
 if [[ "$CONFIGURATION" == "Test" ]]; then
-  install_framework "${PODS_ROOT}/Flutter/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../flutter_module/.ios/Flutter/engine/Flutter.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/Flutter/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../flutter_module/.ios/Flutter/engine/Flutter.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

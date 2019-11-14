@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C0D90B22373B99200CC3293 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0D90B12373B99200CC3293 /* App.framework */; };
 		1C0D90B42373B99D00CC3293 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0D90B32373B99D00CC3293 /* Flutter.framework */; };
 		1C0D90B62373B9EF00CC3293 /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0D90B32373B99D00CC3293 /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1C0D90B72373B9EF00CC3293 /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0D90B12373B99200CC3293 /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1C63139B23701E8D00BE0631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63139A23701E8D00BE0631 /* AppDelegate.m */; };
 		1C6313A123701E8D00BE0631 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6313A023701E8D00BE0631 /* ViewController.m */; };
 		1C6313A623701E8E00BE0631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6313A523701E8E00BE0631 /* Assets.xcassets */; };
@@ -23,6 +21,8 @@
 		1C6313E22372632000BE0631 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6313E12372632000BE0631 /* InfoViewController.m */; };
 		1C6313E523726B6D00BE0631 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6313E423726B6D00BE0631 /* BaseViewController.m */; };
 		1C6313E82372A0DD00BE0631 /* EnvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6313E72372A0DD00BE0631 /* EnvViewController.m */; };
+		1CE0B79C237D332C00DDC7BE /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE0B79B237D332C00DDC7BE /* App.framework */; };
+		1CE0B79D237D334400DDC7BE /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE0B79B237D332C00DDC7BE /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E74D1FCF9791830BFB1F8806 /* Pods_FlutterHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE48D64003A7E4D554AE339 /* Pods_FlutterHybrid.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,8 +33,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1CE0B79D237D334400DDC7BE /* App.framework in Embed Frameworks */,
 				1C0D90B62373B9EF00CC3293 /* Flutter.framework in Embed Frameworks */,
-				1C0D90B72373B9EF00CC3293 /* App.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +42,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1C0D90B12373B99200CC3293 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = ../../../flutter_module/.ios/Flutter/App.framework; sourceTree = "<group>"; };
 		1C0D90B32373B99D00CC3293 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../flutter_module/.ios/Flutter/engine/Flutter.framework; sourceTree = "<group>"; };
 		1C63139623701E8D00BE0631 /* FlutterHybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlutterHybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C63139923701E8D00BE0631 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +70,7 @@
 		1C6313E423726B6D00BE0631 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		1C6313E62372A0DD00BE0631 /* EnvViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnvViewController.h; sourceTree = "<group>"; };
 		1C6313E72372A0DD00BE0631 /* EnvViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnvViewController.m; sourceTree = "<group>"; };
+		1CE0B79B237D332C00DDC7BE /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = ../../../flutter_module/.ios/Flutter/App.framework; sourceTree = "<group>"; };
 		1F7F8C50AFC5CB11CAF9321D /* Pods-FlutterHybrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterHybrid.release.xcconfig"; path = "Target Support Files/Pods-FlutterHybrid/Pods-FlutterHybrid.release.xcconfig"; sourceTree = "<group>"; };
 		2CBCF53FEE28A88867DDA6B2 /* Pods-FlutterHybrid.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterHybrid.test.xcconfig"; path = "Target Support Files/Pods-FlutterHybrid/Pods-FlutterHybrid.test.xcconfig"; sourceTree = "<group>"; };
 		91F44E4F9CEB68CFAA354177 /* Pods-FlutterHybrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterHybrid.debug.xcconfig"; path = "Target Support Files/Pods-FlutterHybrid/Pods-FlutterHybrid.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C0D90B22373B99200CC3293 /* App.framework in Frameworks */,
 				1C0D90B42373B99D00CC3293 /* Flutter.framework in Frameworks */,
+				1CE0B79C237D332C00DDC7BE /* App.framework in Frameworks */,
 				E74D1FCF9791830BFB1F8806 /* Pods_FlutterHybrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +151,8 @@
 		1C6313BC2370232E00BE0631 /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
+				1CE0B79B237D332C00DDC7BE /* App.framework */,
 				1C0D90B32373B99D00CC3293 /* Flutter.framework */,
-				1C0D90B12373B99200CC3293 /* App.framework */,
 			);
 			path = Flutter;
 			sourceTree = "<group>";
@@ -216,6 +216,7 @@
 				1C63139423701E8D00BE0631 /* Resources */,
 				1C0D90B52373B9DF00CC3293 /* Embed Frameworks */,
 				1C0D90B82373B9F900CC3293 /* Thin Binary */,
+				80747A9655BE3BC9E643FFD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,6 +306,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n";
+		};
+		80747A9655BE3BC9E643FFD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlutterHybrid/Pods-FlutterHybrid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FB43196045F112AD7D885AF6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

@@ -55,6 +55,13 @@ eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper
 
 该设置pod install之后没任何效果，不知道原因，那就手动搞吧，找到flutter_module模块下的Flutter.framework和App.framework拖到项目中，记住要用引用的方式，不要拷贝，因为每次Flutter编译生成新的App.framework，这里得实时更新才行，不然看不到最新效果。如果看不到最新效果，则同第二个问题一样`flutter build ios`即可。
 
+#### 找到原因了，之前脚本失效，最新脚本如下
+
+```
+flutter_application_path = '../flutter_module'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+```
+
 #### 先记录到这里，后面碰到问题再同步更新。。。
 
 
